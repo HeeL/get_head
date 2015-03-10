@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Middleware that helps you to distinguish between HEAD and GET requests.
                           At the moment Rails treats these two requests equally in production mode
                           when you have perform_caching option in environment.rb set to true.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/HeeL/get_head"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
